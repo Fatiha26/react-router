@@ -3,7 +3,7 @@ import React from 'react'
 const About = (props) => {
     return(
         <>
-           <h1>hello this is {props.name} page</h1>
+           <h1>hello this is <span>{props.name}</span> page</h1>
         </>
     )
 };

@@ -14,8 +14,8 @@ const App = () => {
         <Navbar />
         <Routes>
             <Route exact path="/about" Component={()=> <About name="About"/>}/>
-            <Route path="/contact" Component={Contact}/>
-            <Route path="/service" render={()=> <Service name="Service"/>} />
+            <Route path="/contact" Component={()=> <Contact name="Contact"/>}/>
+            <Route path="/service" Component={()=> <Service name="Service"/>} />
 
             <Route path='*' Component={Error}/>
         </Routes>
